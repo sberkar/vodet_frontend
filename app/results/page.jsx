@@ -1,6 +1,5 @@
 "use client";
 
-import { useAppContext } from "@/contexts/AppContext";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 

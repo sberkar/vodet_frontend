@@ -17,8 +17,6 @@ export default function Home() {
     const [jobId, setJobId] = useState(null);
     const [error, setError] = useState('');
 
-    console.log("API_HOST:", API_HOST);
-    console.log("API_ACCESS_KEY:", API_ACCESS_KEY);
 
     // Poll job status after upload
     useEffect(() => {
